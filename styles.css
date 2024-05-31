@@ -1,0 +1,559 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #444;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+header nav ul li a:hover,
+header nav ul li a.btn {
+    background-color: skyblue;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #222;
+    position: relative;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.hero h2 .highlight {
+    color: skyblue;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero .skills {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.hero .skills span {
+    background-color: #444;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.hero .buttons {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.hero .buttons .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero .buttons .btn.primary {
+    background-color: skyblue;
+}
+
+.hero .buttons .btn.secondary {
+    background-color: #555;
+}
+
+.hero .social-media {
+    margin: 20px 0;
+}
+
+.hero .social-media a {
+    margin-right: 10px;
+}
+
+.hero-image img {
+    border-radius: 50%;
+    width: 300px;
+    box-shadow: 0 0 10px skyblue;
+    background-color: #000;
+
+}
+
+.about-experience {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #333;
+}
+
+.about {
+    flex: 1;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.experience {
+    flex: 1;
+    text-align: right;
+}
+
+.experience .rating {
+    font-size: 40px;
+    color: skyblue;
+}
+
+.experience .years {
+    font-size: 30px;
+    font-weight: 800;
+    display: block;
+    margin-top: 10px;
+}
+
+.experience .exp {
+    font-size: 15px;
+    font-weight: 800;
+    display: block;
+    margin-top: 10px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #444;
+    text-align: center;
+}
+
+.rotated-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 50px 0;
+    background-color: #000;
+    color: #fff;
+    transform: rotate(-10deg);
+    box-shadow: 0 0 10px skyblue;
+    overflow: hidden;
+}
+
+.rotated-box span {
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.rotated-box span:first-child {
+    margin-left: -30px;
+}
+
+.rotated-box span:last-child {
+    margin-right: -85px;
+}
+
+.experience-section {
+    border: 3px solid skyblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.experience-left, .experience-right {
+    flex: 1;
+}
+
+.experience-left h3 {
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+.experience-left h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.experience-left p {
+    font-size: 1em;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+.experience-right .experience-item {
+    margin-bottom: 30px;
+}
+
+.experience-right .date {
+    font-size: 1em;
+    color: #ccc;
+}
+
+.experience-right h2 {
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+.experience-right .company {
+    font-size: 1em;
+    color: #ccc;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #1c1c1c;
+    color: #fff;
+}
+
+.awards-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.awards-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.awards-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.awards-header p {
+    font-size: 1em;
+    color: #ccc;
+}
+
+.award-item {
+    background: #333;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.award-content {
+    max-width: 70%;
+}
+
+.award-content h2 {
+    font-size: 1.5em;
+    margin: 0;
+    color: skyblue;
+    padding: 5px;
+    border: 2px solid skyblue;
+}
+
+.award-content p {
+    font-size: 1em;
+    color: #ccc;
+}
+
+.award-year {
+    font-size: 1.2em;
+    text-align: right;
+    color: #ccc;
+}
+
+.portfolio-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.portfolio-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.portfolio-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.portfolio-header p {
+    font-size: 1em;
+    color: #ccc;
+}
+
+.portfolio-categories {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.category-button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background: #333;
+    color: #fff;
+}
+
+.category-button.active, .category-button:hover {
+    background: skyblue;
+    color: #000;
+}
+
+.portfolio-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.case-study {
+    display: flex;
+    background: #333;
+    padding: 20px;
+}
+
+.case-study:nth-child(odd) .case-image {
+    order: 1;
+}
+
+.case-study:nth-child(odd) .case-details {
+    order: 2;
+    padding-left: 20px;
+}
+
+.case-study:nth-child(even) .case-image {
+    order: 2;
+}
+
+.case-study:nth-child(even) .case-details {
+    order: 1;
+    padding-right: 20px;
+}
+
+.case-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.case-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 70%;
+}
+
+.case-details h2 {
+    font-size: 1.2em;
+    color: skyblue;
+    margin: 0 0 10px 0;
+}
+
+.case-details h3 {
+    font-size: 1.8em;
+    margin: 0 0 10px 0;
+}
+
+.case-details p {
+    font-size: 1em;
+    color: #ccc;
+    line-height: 1.6;
+    margin: 0 0 10px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.contact-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-heading {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #fff;
+}
+
+.main-heading {
+    font-size: 36px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.contact-form {
+    background-color: rgba(135, 207, 235, 0.26);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.form-group input {
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #3e3e3e;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.custom-file-upload input[type="file"] {
+    display: none;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(135, 207, 235, 0.526);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.submit-button:hover {
+    background-color: skyblue;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .logo {
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-nav {
+    margin-bottom: 20px;
+}
+
+.footer-nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer-bottom .footer-name {
+    color: skyblue;
+}
